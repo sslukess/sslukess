@@ -13,6 +13,7 @@ export function NameWrapper({ name, children }: PropsWithChildren<NameWrapperPro
             <h1 className={styles.name}>
                 {name}
             </h1>
+            {children}
         </div>
     )
 };

@@ -2,8 +2,9 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    flex: 0 0 auto;
-    padding: var(--stdPadding)
+    flex: 1 1 auto;
+    padding: var(--stdPadding);
+    text-wrap: wrap;
 }
 
 .name { 
