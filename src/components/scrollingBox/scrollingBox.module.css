@@ -1,0 +1,9 @@
+.cards {
+    display: flex; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+}
