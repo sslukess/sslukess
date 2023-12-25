@@ -4,6 +4,7 @@ import { ContentSection } from './components/content-section/ContentSection'
 import { FilledBio } from './components/content-section/bio/bio'
 import { ScrollingBox } from './components/scrollingBox/ScrollingBox'
 import { PreviousJobs } from './components/previous-job/previousJob'
+import { Skills } from './components/skills/Skills'
 import { Footer } from './components/footer/Footer'
 
 // Hooks
@@ -34,6 +35,10 @@ function App() {
       <PreviousJobs />
     </ContentSection>
 
+    <ContentSection heading="Skills">
+      <Skills />
+    </ContentSection>
+    
     <Footer />
     </>
   )
