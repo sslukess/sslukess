@@ -13,5 +13,9 @@
 }
 
 .jobBullet {
-    list-style-type: "📌 "
+    list-style-type: "📌 ";
+}
+
+.jobList {
+    padding-left: var(--stdPadding);
 }
