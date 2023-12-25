@@ -6,7 +6,7 @@ interface NameWrapperProps {
 
 }
 
-export function NameWrapper({ name,children }: PropsWithChildren<NameWrapperProps>) {
+export function NameWrapper({ name, children }: PropsWithChildren<NameWrapperProps>) {
 
     return (
         <div className={styles.nameContainer} >
