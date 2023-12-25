@@ -1,16 +1,21 @@
 import styles from './scrollingBox.module.css';
 import Card from '../card/Card';
+import { projects } from '../../content/projects';
 
 export const ScrollingBox = () => {
 
-    // new array with ten elements of random int between 1 and 82
-    const arr = Array.from({ length: 10 }, () => Math.floor(Math.random() * 82) + 1);
 
     return (
             <section className={styles.cards}>
-                {arr.map((val, index) => {
+                {projects.map((val, index) => {
                     return (
-                        <Card key={index}/>
+                        <Card 
+                        title={val.title}
+                        appUrl={val._appUrl}
+                        codeUrl={val.codeUrl}
+                        description={val.description}
+                        key={val.title}
+                        />
                     )
                 })}
             </section>
