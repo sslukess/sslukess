@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: space-between;
 
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: 480px) {
         flex: 0 0 calc(100% - 8px);
     }
 }

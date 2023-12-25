@@ -4,12 +4,16 @@ import { ContentSection } from './components/content-section/ContentSection'
 import { FilledBio } from './components/content-section/bio/bio'
 import { ScrollingBox } from './components/scrollingBox/ScrollingBox'
 import { PreviousJobs } from './components/previous-job/previousJob'
+import { useWindowWide } from './lib/hooks/useWindowSize'
 
 // Styles
 import './App.css'
 
 function App() {
 
+  // this hook returns true if the window width is greater than the argument.
+  // we want mobile, so this is inverted with ! 
+  const mobile = !useWindowWide(480);
 
   return (
     <>
@@ -19,7 +23,7 @@ function App() {
       <FilledBio />
     </ContentSection>
 
-    <ContentSection heading="Projects">
+    <ContentSection heading={"Projects"} decoration={`${mobile ? "scroll! ->" : ""}`}>
       <ScrollingBox />
     </ContentSection>
 
