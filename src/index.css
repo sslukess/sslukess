@@ -15,16 +15,17 @@
 
   /* Global Vars to use in other CSS Sheets */
   --stdPadding: 1rem;
+  --stdMargin: 1rem;
 }
 
 a {
   font-weight: 500;
-  color: #8b5fea;
+  color: aquamarine;
   text-decoration: inherit;
 }
 
 a:hover {
-  color: #8b5fea;
+  color: rgb(117, 237, 197); 
 }
 
 body {

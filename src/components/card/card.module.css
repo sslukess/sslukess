@@ -23,12 +23,16 @@
 
 .buttonWrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     width: 100%;
 }
 
 .textWrapper {
     text-align: left;
+}
+
+.button {
+    margin: calc(var(--stdMargin)/3);
 }
 
 /* 
