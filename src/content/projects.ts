@@ -64,26 +64,26 @@ const newsWeb = new Project({
     title: "News Web",
     appUrl: "htts://www.google.com",
     codeUrl: "htts://www.google.com",
-    description: `A modern news site, designed for use by a small-to-medium newspaper.` +
-    `This project is built using NextJS 13 and a content integration with Contentful to source news articles.`
+    description: `A modern news site, designed for use by a small-to-medium newspaper.
+    This project is built using NextJS 13 and a content integration with Contentful to source news articles.`
 });
 
 const kwikMaffs = new Project({
     title: "kwikMaffs NPM Package",
     appUrl: "htts://www.google.com",
     codeUrl: "htts://www.google.com",
-    description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.` +
-    `The underlying concepts is to address these issues via a string literal based solution and manual handling of numbers.`+
-    `The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
+    description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.
+    The underlying concepts is to address these issues via a string literal based solution and manual handling of numbers.
+    The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
 });
 
 const autoTrip = new Project({
     title: "AutoTrip Travel Bot",
     appUrl: "htts://www.google.com",
     codeUrl: "htts://www.google.com",
-    description: `This application is a fun little chatbot born out of OpenAI's chat-gpt craze.` +
-    `It is built using NextJS and will hopefully give you good ideas about where to travel.` + 
-    `Note: One of the major learnings while building this application is the unpredicible nature of the gpt engine. If it says something odd, apologies.`
+    description: `This application is a fun little chatbot born out of OpenAI's chat-gpt craze.
+    It is built using NextJS and will hopefully give you good ideas about where to travel.
+    Note: One of the major learnings while building this application is the unpredicible nature of the gpt engine. If it says something odd, apologies.`
 })
 
 export const projects: Project[] = [
