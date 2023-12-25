@@ -10,17 +10,17 @@ type TopLinkData = {
 // Links 
 const githubLink: TopLinkData = {
     display: "GitHub",
-    url: "https://www.google.com"
+    url: "https://github.com/sslukess"
 };
 
 const linkedInLink: TopLinkData = {
     display: "LinkedIn",
-    url: "https://www.google.com"
+    url: "https://www.linkedin.com/in/luke-sampson-searle-3823ab130/"
 };
 
 const photoLink: TopLinkData = {
     display: "Photographs",
-    url: "https://www.google.com"
+    url: "https://lukesampsear.myportfolio.com"
 };
 
 const linkArray = [githubLink, linkedInLink, photoLink];
