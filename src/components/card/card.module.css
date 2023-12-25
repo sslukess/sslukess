@@ -19,6 +19,8 @@
     @media screen and (max-width: 480px) {
         flex: 0 0 calc(100% - 8px);
     }
+
+    box-shadow: 3px 3px 1px purple;
 }
 
 .buttonWrapper {
