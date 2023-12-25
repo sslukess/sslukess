@@ -1,6 +1,6 @@
 // Compontents
 import { TopBar } from './components/top-bar/topBar'
-import { HeadingSection } from './components/heading-section/HeadingSection'
+import { ContentSection } from './components/heading-section/ContentSection'
 import { FilledBio } from './components/heading-section/bio/bio'
 
 // Styles
@@ -13,17 +13,17 @@ function App() {
     <>
     <TopBar/>
 
-    <HeadingSection heading="Bio">
+    <ContentSection heading="Bio">
       <FilledBio />
-    </HeadingSection>
+    </ContentSection>
 
-    <HeadingSection heading="Projects">
+    <ContentSection heading="Projects">
       <FilledBio />
-    </HeadingSection>
+    </ContentSection>
 
-    <HeadingSection heading="Code">
+    <ContentSection heading="Work History">
       <FilledBio />
-    </HeadingSection>
+    </ContentSection>
     </>
   )
 }
