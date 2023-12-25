@@ -25,15 +25,16 @@
 .topLink {
     display: flex;
     flex: 0 0 auto;
-    text-align: center;
     font-size: 1.5rem;
     padding: var(--stdPadding);
     padding-bottom: 0px;
-    transition: 0.2s;
+    transition: 0.3s;   
+    text-shadow: 2px 2px 0px purple;
 
     &:hover {
-        padding-bottom: calc(var(--stdPadding)/2);
-        padding-top: 0px;
+        padding-bottom: 3px;
+        padding-top: 13px;
+        text-shadow: 2px 2px 1px purple;
     }
 }
 
