@@ -1,0 +1,30 @@
+.topBar { 
+    display: flex; 
+    justify-content: space-around;
+    position: fixed;
+    right: 0; 
+    top: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: papayawhip;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+
+    @media (max-width: 450px) {
+        flex: 0 0 50%;
+        flex-wrap: wrap;
+
+    }
+}
+
+.topLink {
+    display: flex;
+    flex: 0 0 15%;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+
+    @media (max-width: 450px) {
+        flex: 50%;
+    }
+}
