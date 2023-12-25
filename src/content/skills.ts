@@ -19,8 +19,8 @@ function mapSkill(skillToMap: skill, category: category): Skill {
 };
 
 // raw data
-const langs = ["TypeScript", "JavaScript", "React", "Styled Components", "GraphQL", "jQuery", "CSS", "HTML"]
-const frameworks = ["NextJS", "Gatsby", "Node", "Storybook", "Jest", "Testing Library", "Redux", "Webpack"];
+const langs = ["TypeScript", "JavaScript", "React", "GraphQL", "jQuery", "CSS", "HTML"]
+const frameworks = ["NextJS", "Gatsby", "Node", "Styled Components", "Storybook", "Jest", "Testing Library", "Redux", "Webpack"];
 const platforms = ["Okta", "Netlify", "Github", "Github Actions", "Contentful", "Docker"];
 
 
