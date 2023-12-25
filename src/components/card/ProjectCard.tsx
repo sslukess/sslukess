@@ -3,7 +3,7 @@ import styles from './card.module.css';
 
 export interface CardProps extends IProject {};
 
-const Card = ({
+export const ProjectCard = ({
     title,
     appUrl,
     codeUrl,
@@ -37,5 +37,3 @@ const Card = ({
         </>
     )
 };
-
-export default Card;

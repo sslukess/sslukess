@@ -1,0 +1,17 @@
+.titleWrapper {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+
+    ::before {
+
+    }
+}
+
+.employer {
+    font-weight: bold;
+}
+
+.jobBullet {
+    list-style-type: "📌 "
+}

@@ -3,6 +3,7 @@ import { TopBar } from './components/top-bar/topBar'
 import { ContentSection } from './components/content-section/ContentSection'
 import { FilledBio } from './components/content-section/bio/bio'
 import { ScrollingBox } from './components/scrollingBox/ScrollingBox'
+import { PreviousJobs } from './components/previous-job/previousJob'
 
 // Styles
 import './App.css'
@@ -23,7 +24,7 @@ function App() {
     </ContentSection>
 
     <ContentSection heading="Work History">
-      <FilledBio />
+      <PreviousJobs />
     </ContentSection>
     </>
   )
