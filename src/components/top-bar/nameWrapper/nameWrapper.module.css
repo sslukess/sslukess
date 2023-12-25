@@ -1,0 +1,11 @@
+.nameContainer {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex: 0 0 auto;
+    padding: var(--stdPadding)
+}
+
+.name { 
+    margin: 0px;
+}

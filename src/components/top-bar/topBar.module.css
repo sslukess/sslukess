@@ -1,14 +1,10 @@
 .topBar { 
     display: flex; 
-    justify-content: space-around;
-    position: fixed;
-    right: 0; 
-    top: 0;
-    padding: 20px;
-    width: 100%;
-    background-color: papayawhip;
+    justify-content: flex-start;
+    align-items: flex-end;
     box-sizing: border-box;
     flex-wrap: wrap;
+    flex: 100%; 
 
     @media (max-width: 450px) {
         flex: 0 0 50%;
@@ -17,14 +13,23 @@
     }
 }
 
+.topLinks {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    flex: 2 2 auto;
+    padding: var(--stdPadding) 0px;
+}
+
 .topLink {
     display: flex;
-    flex: 0 0 15%;
+    flex: 0 0 auto;
     text-align: center;
-    padding: 5px;
     font-size: 1.5rem;
+    padding: 0px var(--stdPadding);
+}
 
-    @media (max-width: 450px) {
-        flex: 50%;
-    }
+.firstTopLink {
+    padding-left: 0px;
 }
