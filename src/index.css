@@ -14,7 +14,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* max-width: 100%; */
+  width: 100%;
 
   /* Global Vars to use in other CSS Sheets */
   --stdPadding: 1rem;

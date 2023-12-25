@@ -4,6 +4,9 @@ import { ContentSection } from './components/content-section/ContentSection'
 import { FilledBio } from './components/content-section/bio/bio'
 import { ScrollingBox } from './components/scrollingBox/ScrollingBox'
 import { PreviousJobs } from './components/previous-job/previousJob'
+import { Footer } from './components/footer/Footer'
+
+// Hooks
 import { useWindowWide } from './lib/hooks/useWindowSize'
 
 // Styles
@@ -30,6 +33,8 @@ function App() {
     <ContentSection heading="Work History">
       <PreviousJobs />
     </ContentSection>
+
+    <Footer />
     </>
   )
 }
