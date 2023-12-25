@@ -2,3 +2,22 @@
     display: flex;
     justify-content: space-between;
 }
+
+.div {
+    display: flex;
+    align-items: center
+    /* flex-direction: column; */
+}
+
+.span {
+    margin: 10px;
+    vertical-align: bottom;
+    line-height: 1px;
+    font-size: smaller;
+}
+
+.img {
+    height: 100%;
+    width: auto;
+    margin: 2px;
+}
