@@ -17,7 +17,7 @@ const flgBA: IPreviousJob = {
 };
 
 const instandaTechLead: IPreviousJob = {
-    title: "Lead Technical Analyst",
+    title: "Implementation Lead",
     employer: "INSTANDA",
     yearFrom: "Nov, 2019",
     yearTo: "Dec, 2021",
