@@ -35,7 +35,7 @@ function App() {
       <PreviousJobs />
     </ContentSection>
 
-    <ContentSection heading="Skills">
+    <ContentSection heading="Tools">
       <Skills />
     </ContentSection>
     
