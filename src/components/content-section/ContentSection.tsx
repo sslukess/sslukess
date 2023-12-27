@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react";
+import { PropsWithChildren } from "react";
 import style from './contentSection.module.css'
 
 interface HeadingSectionProps {

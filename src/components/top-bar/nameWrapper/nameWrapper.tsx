@@ -1,4 +1,4 @@
-import React, { PropsWithChildren } from "react"
+import { PropsWithChildren } from "react"
 import styles from './nameWrapper.module.css'
 
 interface NameWrapperProps {

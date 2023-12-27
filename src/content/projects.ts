@@ -65,6 +65,7 @@ const newsWeb = new Project({
     appUrl: "htts://www.google.com",
     codeUrl: "htts://www.google.com",
     description: `A modern news site, designed for use by a small-to-medium newspaper.
+    This app is a exercise in content management and display, including a categorisation and search function. 
     This project is built using NextJS 13 and a content integration with Contentful to source news articles.`
 });
 
