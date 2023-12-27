@@ -62,8 +62,8 @@ export class Project {
 
 const newsWeb = new Project({
     title: "News Web",
-    appUrl: "htts://www.google.com",
-    codeUrl: "htts://www.google.com",
+    appUrl: "https://newsweb-v1.netlify.app",
+    codeUrl: "https://github.com/sslukess/NewsWeb-V1",
     description: `A modern news site, designed for use by a small-to-medium newspaper.
     This app is a exercise in content management and display, including a categorisation and search function. 
     This project is built using NextJS 13 and a content integration with Contentful to source news articles.`
