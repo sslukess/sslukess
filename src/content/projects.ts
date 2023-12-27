@@ -65,8 +65,8 @@ const newsWeb = new Project({
     appUrl: "https://newsweb-v1.netlify.app",
     codeUrl: "https://github.com/sslukess/NewsWeb-V1",
     description: `A modern news site, designed for use by a small-to-medium newspaper.
-    This app is a exercise in content management and display, including a categorisation and search function. 
-    This project is built using NextJS 13 and a content integration with Contentful to source news articles.`
+    This app is an exercise in content management and display, including categorisation and a search function. 
+    This project is built using NextJS (App router) and a content integration with Contentful to source news articles.`
 });
 
 const kwikMaffs = new Project({
@@ -74,21 +74,21 @@ const kwikMaffs = new Project({
     appUrl: "htts://www.google.com",
     codeUrl: "htts://www.google.com",
     description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.
-    The underlying concepts is to address these issues via a string literal based solution and manual handling of numbers.
+    The core concept is to address these issues via a string literal based solution and manual handling of numbers.
     The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
 });
 
 const autoTrip = new Project({
     title: "AutoTrip Travel Bot",
-    appUrl: "htts://www.google.com",
-    codeUrl: "htts://www.google.com",
-    description: `This application is a fun little chatbot born out of OpenAI's chat-gpt craze.
-    It is built using NextJS and will hopefully give you good ideas about where to travel.
-    Note: One of the major learnings while building this application is the unpredicible nature of the gpt engine. If it says something odd, apologies.`
+    appUrl: "https://autotrip.netlify.app",
+    codeUrl: "https://github.com/sslukess/AutoTrip",
+    description: `This application is a fun little chatbot born out of the OpenAI chat-gpt craze.
+    This app is a dive into chat technology, network streaming and working with a ML model. 
+    It is built using NextJS (App router) and will hopefully give you good ideas about where to travel.`
 })
 
 export const projects: Project[] = [
     newsWeb, 
+    autoTrip,
     kwikMaffs,
-    autoTrip
 ]

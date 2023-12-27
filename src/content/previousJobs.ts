@@ -21,7 +21,7 @@ const instandaTechLead: IPreviousJob = {
     employer: "INSTANDA",
     yearFrom: "Nov, 2019",
     yearTo: "Dec, 2021",
-    description: "I was afforded the opportunity to take a leadership role at INSTANDA. This role required me to manage a skilled resource team to implement web-based insurance technology solutions."
+    description: "I took the opportunity of a leadership role at INSTANDA. This role required me to manage a skilled resource team to implement web-based insurance technology solutions."
 };
 
 const instandaConfigAnalyst: IPreviousJob = {
