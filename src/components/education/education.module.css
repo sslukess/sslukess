@@ -1,0 +1,21 @@
+.titleWrapper {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: underline;
+
+    ::before {
+
+    }
+}
+
+.educator {
+    font-weight: bold;
+}
+
+.eduBullet {
+    list-style-type: "📚 ";
+}
+
+.eduList {
+    padding-left: var(--stdPadding);
+}
