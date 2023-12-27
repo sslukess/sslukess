@@ -7,7 +7,7 @@ export const ScrollingBox = () => {
 
     return (
         <section className={styles.cards}>
-            {projects.map((val, index) => {
+            {projects.map((val) => {
                 return (
                     <ProjectCard
                         title={val.title}
