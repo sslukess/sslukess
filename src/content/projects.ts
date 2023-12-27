@@ -69,14 +69,15 @@ const newsWeb = new Project({
     This project is built using NextJS (App router) and a content integration with Contentful to source news articles.`
 });
 
-const kwikMaffs = new Project({
-    title: "kwikMaffs NPM Package",
-    appUrl: "htts://www.google.com",
-    codeUrl: "htts://www.google.com",
-    description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.
-    The core concept is to address these issues via a string literal based solution and manual handling of numbers.
-    The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
-});
+// TODO Make this feature exposed, then uncomment this out. 
+// const kwikMaffs = new Project({
+//     title: "kwikMaffs NPM Package",
+//     appUrl: "htts://www.google.com",
+//     codeUrl: "htts://www.google.com",
+//     description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.
+//     The core concept is to address these issues via a string literal based solution and manual handling of numbers.
+//     The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
+// });
 
 const autoTrip = new Project({
     title: "AutoTrip Travel Bot",
@@ -87,8 +88,18 @@ const autoTrip = new Project({
     It is built using NextJS (App router) and will hopefully give you good ideas about where to travel.`
 })
 
+const sslukess = new Project({
+    title: "Luke's Web Page",
+    appUrl: "/",
+    codeUrl: "https://github.com/sslukess/sslukess",
+    description: `This webpage! This is my dedicated personal webapp, designed to showcase my professional portfolio. 
+    The core requirement is a simple presentation of information, while still conveying my passion for UI design. 
+    The application is built with Vite, React and TypeScript.`
+})
+
+
 export const projects: Project[] = [
     newsWeb, 
     autoTrip,
-    kwikMaffs,
+    sslukess
 ]
