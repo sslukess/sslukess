@@ -44,10 +44,10 @@ This project is designed to run within a DevContainer, hence running it with VS 
 - Web Browser
 - A brain
 
-### 🍍 Contributing 
+## 🍍 Contributing 
 
 I mean, if you really want to open a PR, you can. I might even approve it! 
 
-### 🫐 License
+## 🫐 License
 
 Luke's Web Page © 2023 by sslukess is licensed under CC BY-NC-ND 4.0 
