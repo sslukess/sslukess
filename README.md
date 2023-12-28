@@ -33,7 +33,7 @@ The app presents:
 This project is designed to run within a DevContainer, hence running it with VS Code + the devcontainers extenstion is advised.
 
 1. Clone the repo 
-2. Optional: reopen the porject in the container (this will build and run it the first time)
+2. Optional: reopen the project in the container (this will build and run it the first time)
 3. Install deps ( I use yarn, you could also use npm if you want. )
 4. Run dev script (yarn dev/npm run dev) 
 
