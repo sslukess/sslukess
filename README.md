@@ -1,30 +1,53 @@
-# React + TypeScript + Vite
+# Luke's Web Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio website.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Project Title](#project-title)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [Features](#features)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [License](#license)
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This is my dedicated personal webapp, designed to showcase my professional portfolio. The core requirement is a simple presentation of information, while still conveying my passion for UI design. The application is built with Vite, React and TypeScript.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+The app presents:
+- Biography
+- Links to some of my other stuff
+- SE Projects
+- Work History
+- Education History 
+- Skill set
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Getting Started
+
+This project is designed to run within a DevContainer, hence running it with VS Code + the devcontainers extenstion is advised.
+
+1. Clone the repo 
+2. Optional: reopen the porject in the container (this will build and run it the first time)
+3. Install deps ( I use yarn, you could also use npm if you want. )
+4. Run dev script (yarn dev/npm run dev) 
+
+### Prerequisites
+ 
+- Docker
+- VSCode + devcontainers extenstion OR manually install the packaged deps (Node, yarn/npm, etc). 
+- Web Browser
+- A brain
+
+### Contributing 
+
+I mean, if you really want to open a PR, you can. I might even approve it! 
+
+### License
+
+Luke's Web Page © 2023 by sslukess is licensed under CC BY-NC-ND 4.0 
