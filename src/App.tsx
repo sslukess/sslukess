@@ -21,31 +21,31 @@ function App() {
   const mobile = !useWindowWide(480);
 
   return (
-    <>
-    <TopBar/>
+    <div className="appWrapper">
+      <TopBar />
 
-    <ContentSection heading="Bio">
-      <FilledBio />
-    </ContentSection>
-    
-    <ContentSection heading={"Projects"} decoration={`${mobile ? "scroll! ->" : ""}`}>
-      <ScrollingBox />
-    </ContentSection>
+      <ContentSection heading="Bio">
+        <FilledBio />
+      </ContentSection>
 
-    <ContentSection heading="Work History">
-      <PreviousJobs />
-    </ContentSection>
+      <ContentSection heading={"Projects"} decoration={`${mobile ? "scroll! ->" : ""}`}>
+        <ScrollingBox />
+      </ContentSection>
 
-    <ContentSection heading="Education">
-      <Educations />
-    </ContentSection>
+      <ContentSection heading="Work History">
+        <PreviousJobs />
+      </ContentSection>
 
-    <ContentSection heading="Skills">
-      <Skills />
-    </ContentSection>
-    
-    <Footer />
-    </>
+      <ContentSection heading="Education">
+        <Educations />
+      </ContentSection>
+
+      <ContentSection heading="Skills">
+        <Skills />
+      </ContentSection>
+
+      <Footer />
+    </div>
   )
 }
 
