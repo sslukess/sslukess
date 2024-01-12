@@ -1,7 +1,7 @@
 import { IPreviousJob } from "../components/previous-job/previousJob"
 
 const flgDev: IPreviousJob = {
-    title: "Software Developer",
+    title: "Senior Software Engineer",
     employer: "Fitness and Lifestyle Group",
     yearFrom: "Aug, 2022",
     yearTo: "Present",
@@ -9,7 +9,7 @@ const flgDev: IPreviousJob = {
 };
 
 const flgBA: IPreviousJob = {
-    title: "Lead Technical Analyst",
+    title: "Technical Analyst",
     employer: "Fitness and Lifestyle Group",
     yearFrom: "Dec, 2021",
     yearTo: "Aug, 2022",
@@ -17,7 +17,7 @@ const flgBA: IPreviousJob = {
 };
 
 const instandaTechLead: IPreviousJob = {
-    title: "Implementation Lead",
+    title: "Software Team Lead",
     employer: "INSTANDA",
     yearFrom: "Nov, 2019",
     yearTo: "Dec, 2021",
@@ -25,7 +25,7 @@ const instandaTechLead: IPreviousJob = {
 };
 
 const instandaConfigAnalyst: IPreviousJob = {
-    title: "Product Engineer",
+    title: "Software Engineer",
     employer: "INSTANDA",
     yearFrom: "Aug, 2018",
     yearTo: "Nov, 2019",
