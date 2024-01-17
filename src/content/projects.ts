@@ -69,15 +69,14 @@ const newsWeb = new Project({
     This project is built using NextJS (App router) and a content integration with Contentful to source news articles.`
 });
 
-// TODO Make this feature exposed, then uncomment this out. 
-// const kwikMaffs = new Project({
-//     title: "kwikMaffs NPM Package",
-//     appUrl: "htts://www.google.com",
-//     codeUrl: "htts://www.google.com",
-//     description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.
-//     The core concept is to address these issues via a string literal based solution and manual handling of numbers.
-//     The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
-// });
+const kwikMaffs = new Project({
+    title: "kwikMaffs NPM Package",
+    appUrl: "https://www.npmjs.com/package/kwikmaffs",
+    codeUrl: "https://github.com/sslukess/KwikMaffs",
+    description: `This NPM package is a solution to JavaScript's inability to handle certain mathematical concepts.
+    The core concept is to address these issues via a string literal based solution and manual handling of numbers.
+    The solution is intentionally verbose and performance is not considered. It is simply a study of logic.`
+});
 
 const autoTrip = new Project({
     title: "AutoTrip Travel Bot",
@@ -101,5 +100,6 @@ const sslukess = new Project({
 export const projects: Project[] = [
     newsWeb, 
     autoTrip,
+    kwikMaffs,
     sslukess
 ]
