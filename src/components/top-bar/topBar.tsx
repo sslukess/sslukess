@@ -23,7 +23,12 @@ const photoLink: TopLinkData = {
     url: "https://lukesampsear.myportfolio.com"
 };
 
-const linkArray = [githubLink, linkedInLink, photoLink];
+const npmLink: TopLinkData = {
+    display: "NPM", 
+    url: "https://www.npmjs.com/~sslukess"
+}
+
+const linkArray = [githubLink, linkedInLink, photoLink, npmLink];
 
 
 interface TopLinkProps { 
