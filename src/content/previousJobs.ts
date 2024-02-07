@@ -17,7 +17,7 @@ const flgBA: IPreviousJob = {
 };
 
 const instandaTechLead: IPreviousJob = {
-    title: "Software Team Lead",
+    title: "Implementation Lead",
     employer: "INSTANDA",
     yearFrom: "Nov, 2019",
     yearTo: "Dec, 2021",
@@ -25,7 +25,7 @@ const instandaTechLead: IPreviousJob = {
 };
 
 const instandaConfigAnalyst: IPreviousJob = {
-    title: "Software Engineer",
+    title: "Analyst Engineer",
     employer: "INSTANDA",
     yearFrom: "Aug, 2018",
     yearTo: "Nov, 2019",
