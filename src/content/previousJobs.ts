@@ -1,11 +1,11 @@
 import { IPreviousJob } from "../components/previous-job/previousJob"
 
 const flgDev: IPreviousJob = {
-    title: "Senior Software Engineer",
+    title: "Software Engineer",
     employer: "Fitness and Lifestyle Group",
     yearFrom: "Aug, 2022",
     yearTo: "Present",
-    description: "After leading product requirements and planning at FLG Digital (see below), I returned to a development role, co-leading the team, using my technical skills to deliver great solutions within a Scrum team."    
+    description: "After leading product requirements and planning at FLG Digital (see below), I returned to a development role, using my technical skills to deliver great solutions."    
 };
 
 const flgBA: IPreviousJob = {
