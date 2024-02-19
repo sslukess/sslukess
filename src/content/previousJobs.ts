@@ -5,7 +5,7 @@ const flgDev: IPreviousJob = {
     employer: "Fitness and Lifestyle Group",
     yearFrom: "Aug, 2022",
     yearTo: "Present",
-    description: "After leading product requirements and planning at FLG Digital (see below), I returned to a development role, using my technical skills to deliver great solutions."    
+    description: "After leading product requirements and planning at FLG Digital (see below), I moved to a development role, using my technical skills along side my analytical skills to deliver great solutions within the Scrum team."    
 };
 
 const flgBA: IPreviousJob = {
