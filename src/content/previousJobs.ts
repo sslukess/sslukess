@@ -4,7 +4,7 @@ const flgDev: IPreviousJob = {
     title: "Software Engineer",
     employer: "Fitness and Lifestyle Group",
     yearFrom: "Aug, 2022",
-    yearTo: "Present",
+    yearTo: "Feb, 2024",
     description: "After leading product requirements and planning at FLG Digital (see below), I moved to a development role, using my technical skills along side my analytical skills to deliver great solutions within the Scrum team."    
 };
 
@@ -32,9 +32,18 @@ const instandaConfigAnalyst: IPreviousJob = {
     description: "During this role, I worked as part of a small team to deliver bespoke solutions for clients. I was responsible for documenting product requirements and building applications/features using open web technologies and the INSTANDA platform."
 };
 
+const instandaPreSales: IPreviousJob = { 
+    title: "Technical Presales Manager (EMEA)",
+    employer: "INSTANDA", 
+    yearFrom: "March, 2024", 
+    yearTo: "Present",
+    description: "In February 2024 I moved from Australia to Europe, resulting in a chance to reassess my career and the deverse skillset I have accrued. I decided that I wanted to move back into a commercially motivated role. Having worked with INSTANDA previously, and now being on the same side of the planet (They're UK based), the fit was obviously right."
+}
+
 export const previousJobs: IPreviousJob[] = [
+    instandaPreSales,
     flgDev,
     flgBA,
     instandaTechLead,
-    instandaConfigAnalyst
+    instandaConfigAnalyst, 
 ]
