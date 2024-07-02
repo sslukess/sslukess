@@ -15,7 +15,7 @@ export const Footer = () => {
         <footer className={styles.footer}>
             
             <div className={styles.div}>
-                <span className={styles.span}> © Luke Sampson Searle, 2023 </span>
+                <span className={styles.span}> © Luke Sampson Searle, 2024 </span>
             </div>
 
             {/* As the footer gets crowded at mobile width, this is only rendered if not mobile */}
