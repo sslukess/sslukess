@@ -28,16 +28,16 @@ function App() {
         <FilledBio />
       </ContentSection>
 
-      <ContentSection heading={"Projects"} decoration={`${mobile ? "scroll! ->" : ""}`}>
-        <ScrollingBox />
-      </ContentSection>
-
       <ContentSection heading="Work History">
         <PreviousJobs />
       </ContentSection>
 
       <ContentSection heading="Education">
         <Educations />
+      </ContentSection>
+
+      <ContentSection heading={"Projects"} decoration={`${mobile ? "scroll! ->" : ""}`}>
+        <ScrollingBox />
       </ContentSection>
 
       <ContentSection heading="Skills">
