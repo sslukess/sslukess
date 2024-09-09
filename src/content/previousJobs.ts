@@ -33,11 +33,11 @@ const instandaConfigAnalyst: IPreviousJob = {
 };
 
 const instandaPreSales: IPreviousJob = { 
-    title: "Technical Presales Manager (EMEA)",
+    title: "Sales Engineer (Technical Presales Manager)",
     employer: "INSTANDA", 
     yearFrom: "March, 2024", 
     yearTo: "Present",
-    description: "In February 2024 I moved from Australia to Europe, resulting in a chance to reassess my career and the deverse skillset I have accrued. I decided that I wanted to move back into a commercially motivated role. Having worked with INSTANDA previously, and now being on the same side of the planet (They're UK based), the fit was obviously right."
+    description: "In this role I lead the Technical Pre-Sales (TPS) team within the EMEA region. Using my deep technical knowledge of web applications and commercial software, my team of Sales Engineers and I support the sales operations of the business and maintain the demo products. In addition to this, I manage multiple people within my team to ensure we meet deadlines and maintain sustainable workloads."
 }
 
 export const previousJobs: IPreviousJob[] = [
