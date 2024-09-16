@@ -1,4 +1,4 @@
-import { Skill } from '../../content/skills';
+import type { Skill } from '../../content/skills';
 import { mappedLangs, mappedFrameworks, mappedPlatforms } from '../../content/skills';
 import styles from './skills.module.css'
 
