@@ -32,7 +32,7 @@ const Education = ({
 export const Educations = () => {
     return (
         <ul className={styles.eduList}>
-            {educations.map((edu) => <Education {...edu} />)}
+            {educations.map((edu, index) => <Education {...edu} key={index}/>)}
         </ul>
     )
 };

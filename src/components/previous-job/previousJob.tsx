@@ -32,7 +32,7 @@ const PreviousJob = ({
 export const PreviousJobs = () => {
     return (
         <ul className={styles.jobList}>
-            {previousJobs.map((job) => <PreviousJob {...job} />)}
+            {previousJobs.map((job, index) => <PreviousJob {...job} key={index}/>)}
         </ul>
     )
 }

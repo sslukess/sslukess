@@ -19,21 +19,18 @@ export const Skills = () => {
         <>
             {/* Langs */}
             <div className={styles.skillsWrapper}>
-                {mappedLangs.map(item => <Skill skill={item.skill} category={item.category} />)}
+                {mappedLangs.map((item, index) => <Skill skill={item.skill} category={item.category} key={index}/>)}
             </div>
-
 
             {/* frameworks */}
             <div className={styles.skillsWrapper}>
-                {mappedFrameworks.map(item => <Skill skill={item.skill} category={item.category} />)}
+                {mappedFrameworks.map((item, index) => <Skill skill={item.skill} category={item.category} key={index} />)}
             </div>
 
             {/* platfroms */}
             <div className={styles.skillsWrapper}>
-                {mappedPlatforms.map(item => <Skill skill={item.skill} category={item.category} />)}
+                {mappedPlatforms.map((item, index) => <Skill skill={item.skill} category={item.category} key={index}/>)}
             </div>
-
-
         </>
     );
 };
